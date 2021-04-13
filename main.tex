@@ -1,0 +1,109 @@
+% LaTeX hjelpedokument for TFE4101
+% Laget av Sveinung Haugane, vår 2019.
+
+% Dette er en kommentar. Alt som følger en "%" er ikke en del av det kompilerte dokumentet.
+
+% \documentclass[<options>]{<dokumenttype>} bestemmer hvordan layouten på sidene skal være.
+% For labrapporten bruker vi article, som gjør at grunnformateringen er lik for hver side. 
+% Et annet alternativ er book, som gjør at layouten blir som en innbundet bok.
+% Det er også her vi setter skriftstørrelse, papirstørrelse, tosidig print layout etc.
+\documentclass[12pt, a4paper]{article}
+
+% LaTeX er basert rundt å benytte pakker for å ta i bruk annen funksjonalitet.
+% Pakker inkluderes ved å benytte \usepackage[<package options>]{<package name>}.
+% Dere kommer ikke unna bruk av pakker, hvis dere ønsker å bruke LaTeX effektivt.
+% Pakken geometry gir mange fler valg for å sette marger og sidelayout.
+\usepackage[lmargin=25mm,rmargin=25mm,tmargin=27mm,bmargin=30mm]{geometry}
+
+% Bestemmer hvilken enkoding som benyttes for input fra keyboard. Anbefaler utf8.
+% Dere vil da mest sannsynlig ikke få problemer med æøå.
+\usepackage[utf8]{inputenc}
+
+% Fontenc styrer fonten som blir brukt. T1 fungerer fint.
+\usepackage[T1]{fontenc}
+
+% Sett inn ekstern fil i hoveddokument.
+\input{setup.tex}
+
+% De to linjene nedenfor sikrer at nye avsnitt ikke starter med tab, og at det blir 
+% mellomrom mellom avsnittene. Dere skal få styre dette selv, men personlig liker jeg
+% innstillingen nedenfor.
+\setlength\parindent{0pt}
+\setlength{\parskip}{1em}
+
+% Hele dokumentets innhold defineres i rekkefølge mellom \begin{document} og 
+% \end{document} (titlepage og noen andre ting er spesielle tilfeller)
+\begin{document}
+
+% Det som skal på rapportens forside kan defineres innenfor et titlepage scope.
+% Linjeskift kan tvinges frem med dobbel backspace \\ eller tom kodelinje.
+% Titlepage blir ikke nummerert.
+\begin{titlepage}
+    % Tekst i mellom \begin{center} og \end{center} blir sentrert. 
+    \begin{center}
+        % \vspace{<lengde>} setter hvor mye whitespace som skal være i mellom linjene. 
+        % For å sette mellomrom relativt til marg, må man benytte \vspace*{<lengde>}
+        \vspace*{1.5cm}
+        % Sjekk denne for å se på tekststørrelser: https://texblog.org/2012/08/29/changing-the-font-size-in-latex/
+        {\Huge\textbf{Labrapport Lab 3: RC-Krets og CMOS logikk}}\\
+        \vspace{1cm}
+        {\Large av Arran Kostveit Gabriel og Stefan Mack}\\
+        \vspace{1cm}
+        \today\\ % Setter inn dagens dato ved kompilering
+        \vspace{1cm}
+        Labgruppe 24, pulje 3\\
+        
+        %\vfill fyller siden med whitespace, slik at teksten som følger havner neders.
+        %\hfill gjør tilsvarende horisontalt.
+        \vfill
+        {
+            \large TFE4101 Krets og Digitalteknikk\\ 
+            Norges Teknisk-Naturvitenskapelige Universitet
+        }
+        
+        
+        
+    \end{center}
+\end{titlepage}
+
+% \pagenumbering velger automatisk sidenummereringsstil.
+%   - gobble (ingen nummerering)
+%   - arabic (normal nummerering)
+%   - roman (romerske tall)
+\pagenumbering{roman}
+
+% \Clearpage sier at det som kommer på de følgende linjene skal starte på neste side.
+\clearpage
+
+% For oversikten sin del kan man med fordel dele opp teksten i flere underdokumenter.
+% For å sette et dokument inn i hoveddokumentet brukes \input{</path/to/filnavn.tex>}
+% Hvis det ligger i samme mappe som hoveddokumentet trengs ingen spesiell path.
+\input{Sammendrag.tex}\clearpage
+
+% \tableofcontents setter inn automatisk generert innholdsfortegnelse.
+% Hva som vises her er bestemt av kapitteloverskriftene. Kommer tilbake til dette.
+\tableofcontents
+\addcontentsline{toc}{section}{Innhold}
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\input{Innledning.tex}\clearpage
+
+\input{Teori.tex}\clearpage
+
+\input{Arbeid.tex}\clearpage
+
+\input{Resultater.tex}\clearpage
+
+\input{Diskusjon.tex}\clearpage
+
+\input{Konklusjon.tex}\clearpage
+
+\printbibliography
+\addcontentsline{toc}{section}{Referanser}
+\clearpage
+
+\input{Vedlegg.tex}
+
+\end{document}
