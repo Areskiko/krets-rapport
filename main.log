@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.20)  13 APR 2021 14:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.1.20)  13 APR 2021 16:28
 entering extended mode
-**"c:/Users/stefa/OneDrive - NTNU/student/krets/rapport/main.tex"
-("c:/Users/stefa/OneDrive - NTNU/student/krets/rapport/main.tex"
+**c:/Users/stefa/Desktop/rapport/main.tex
+(c:/Users/stefa/Desktop/rapport/main.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-01-09> xparse <2020-03-03> (C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -47,7 +47,7 @@ Package: inputenc 2020/08/01 v1.3d Input encoding file
 \inpenc@posthook=\toks18
 ) (C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
-) ("c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\setup.tex" (C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+) (c:/Users\stefa\Desktop\rapport\setup.tex (C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2020/12/16 3.52 The Babel package
  (C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
 File: babel.def 2020/12/16 3.52 Babel common definitions
@@ -904,7 +904,11 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'norsk'.
- ("c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\main.aux")
+ (c:/Users\stefa\Desktop\rapport\main.aux
+
+LaTeX Warning: Label `fig:krets_3_3' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -971,7 +975,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 36.
 LaTeX Info: Redefining \pageref on input line 36.
 LaTeX Info: Redefining \nameref on input line 36.
- ("c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\main.out") ("c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\main.out")
+ (c:/Users\stefa\Desktop\rapport\main.out) (c:/Users\stefa\Desktop\rapport\main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1019,7 +1023,7 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- ("c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\main.bbl")
+ (c:/Users\stefa\Desktop\rapport\main.bbl)
 Package biblatex Info: Reference section=0 on input line 36.
 Package biblatex Info: Reference segment=0 on input line 36.
  (C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
@@ -1030,16 +1034,16 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ) [1
 
-{C:/Users/stefa/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] ("c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\Sammendrag.tex") [1
+{C:/Users/stefa/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (c:/Users\stefa\Desktop\rapport\Sammendrag.tex) [1
 
-] ("c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\main.toc")
+] (c:/Users\stefa\Desktop\rapport\main.toc)
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
  [2
 
-] ("c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\Innledning.tex"
-<figurer/pika.jpg, id=134, 803.0pt x 451.6875pt>
+] [3] (c:/Users\stefa\Desktop\rapport\Innledning.tex
+<figurer/pika.jpg, id=143, 803.0pt x 451.6875pt>
 File: figurer/pika.jpg Graphic file (type jpg)
 <use figurer/pika.jpg>
 Package pdftex.def Info: figurer/pika.jpg  used on input line 30.
@@ -1058,17 +1062,21 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 l.63 \clearpage
                 [1
 
- <c:/Users/stefa/OneDrive - NTNU/student/krets/rapport/figurer/pika.jpg>]) [2
+ <c:/Users/stefa/Desktop/rapport/figurer/pika.jpg>]) [2
 
-] ("c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\Teori.tex") [3
+] (c:/Users\stefa\Desktop\rapport\Teori.tex) [3
 
-] ("c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\Arbeid.tex" [4
+] (c:/Users\stefa\Desktop\rapport\Arbeid.tex [4
 
-] [5]) [6] ("c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\Resultater.tex") [7
+] [5]
 
-] ("c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\Diskusjon.tex") [8
+LaTeX Warning: Reference `fig:arb_3D_fig' on page 6 undefined on input line 98.
 
-] ("c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\Konklusjon.tex") [9
+) [6] (c:/Users\stefa\Desktop\rapport\Resultater.tex) [7
+
+] (c:/Users\stefa\Desktop\rapport\Diskusjon.tex) [8
+
+] (c:/Users\stefa\Desktop\rapport\Konklusjon.tex) [9
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 103.
@@ -1076,8 +1084,8 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 10
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [10
 
-] ("c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\Vedlegg.tex"
-<appendixL.pdf, id=239, 598.1477pt x 845.90027pt>
+] (c:/Users\stefa\Desktop\rapport\Vedlegg.tex
+<appendixL.pdf, id=245, 598.1477pt x 845.90027pt>
 File: appendixL.pdf Graphic file (type pdf)
 <use appendixL.pdf>
 Package pdftex.def Info: appendixL.pdf  used on input line 1.
@@ -1086,7 +1094,7 @@ File: appendixL.pdf Graphic file (type pdf)
 <use appendixL.pdf>
 Package pdftex.def Info: appendixL.pdf  used on input line 1.
 (pdftex.def)             Requested size: 598.14624pt x 845.89821pt.
-<appendixL.pdf, id=242, page=1, 598.1477pt x 845.90027pt>
+<appendixL.pdf, id=248, page=1, 598.1477pt x 845.90027pt>
 File: appendixL.pdf Graphic file (type pdf)
 <use appendixL.pdf, page 1>
 Package pdftex.def Info: appendixL.pdf , page1 used on input line 1.
@@ -1109,8 +1117,8 @@ Package pdftex.def Info: appendixL.pdf , page1 used on input line 1.
 (pdftex.def)             Requested size: 597.65338pt x 845.2012pt.
  [11
 
- <c:/Users/stefa/OneDrive - NTNU/student/krets/rapport/appendixL.pdf>]
-<appendixL.pdf, id=258, page=2, 598.1477pt x 845.90027pt>
+ <c:/Users/stefa/Desktop/rapport/appendixL.pdf>]
+<appendixL.pdf, id=264, page=2, 598.1477pt x 845.90027pt>
 File: appendixL.pdf Graphic file (type pdf)
 <use appendixL.pdf, page 2>
 Package pdftex.def Info: appendixL.pdf , page2 used on input line 1.
@@ -1123,8 +1131,8 @@ File: appendixL.pdf Graphic file (type pdf)
 <use appendixL.pdf, page 2>
 Package pdftex.def Info: appendixL.pdf , page2 used on input line 1.
 (pdftex.def)             Requested size: 597.65338pt x 845.2012pt.
- [12 <c:/Users/stefa/OneDrive - NTNU/student/krets/rapport/appendixL.pdf>]
-<appendixL.pdf, id=272, page=3, 598.1477pt x 845.90027pt>
+ [12 <c:/Users/stefa/Desktop/rapport/appendixL.pdf>]
+<appendixL.pdf, id=278, page=3, 598.1477pt x 845.90027pt>
 File: appendixL.pdf Graphic file (type pdf)
 <use appendixL.pdf, page 3>
 Package pdftex.def Info: appendixL.pdf , page3 used on input line 1.
@@ -1137,25 +1145,31 @@ File: appendixL.pdf Graphic file (type pdf)
 <use appendixL.pdf, page 3>
 Package pdftex.def Info: appendixL.pdf , page3 used on input line 1.
 (pdftex.def)             Requested size: 597.65338pt x 845.2012pt.
- [13 <c:/Users/stefa/OneDrive - NTNU/student/krets/rapport/appendixL.pdf>]) ("c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\main.aux")
+ [13 <c:/Users/stefa/Desktop/rapport/appendixL.pdf>]) (c:/Users\stefa\Desktop\rapport\main.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 69EB0B13A3BA1F3EDA3D0F13EBFB0597;1167.
+(rerunfilecheck)             Checksum: D6A11C6B84E4A8B7D13F9FB505B2E9DE;1235.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48682 strings out of 479618
- 1131368 string characters out of 2865026
- 2103877 words of memory out of 3000000
- 65140 multiletter control sequences out of 15000+200000
+ 46996 strings out of 479618
+ 1095817 string characters out of 2865026
+ 2032909 words of memory out of 3000000
+ 63452 multiletter control sequences out of 15000+200000
  416529 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 92i,17n,92p,792b,1632s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 92i,17n,92p,768b,1632s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\stefa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\stefa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\stefa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\stefa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\stefa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\stefa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\stefa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\stefa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\stefa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\stefa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk> <C:\Users\stefa\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2488.pk><C:/Users/stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/stefa/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/stefa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/stefa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/stefa/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "c:/Users\stefa\OneDrive - NTNU\student\krets\rapport\main.pdf" (16 pages, 407716 bytes).
+Output written on c:/Users\stefa\Desktop\rapport\main.pdf (17 pages, 405061 bytes).
 PDF statistics:
- 688 PDF objects out of 1000 (max. 8388607)
- 67 named destinations out of 1000 (max. 500000)
- 222 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 695 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 224 words of extra memory for PDF output out of 10000 (max. 10000000)
 

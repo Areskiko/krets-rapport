@@ -1,7 +1,7 @@
-PWD c:\Users\stefa\OneDrive - NTNU\student\krets\rapport
+PWD c:\Users\stefa\Desktop\rapport
 INPUT C:\Users\stefa\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.tex
-OUTPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.log
+INPUT c:\Users\stefa\Desktop\rapport\main.tex
+OUTPUT c:\Users\stefa\Desktop\rapport\main.log
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -89,10 +89,10 @@ INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1200.tfm
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\setup.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\setup.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\setup.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\setup.tex
+INPUT c:\Users\stefa\Desktop\rapport\setup.tex
+INPUT c:\Users\stefa\Desktop\rapport\setup.tex
+INPUT c:\Users\stefa\Desktop\rapport\setup.tex
+INPUT c:\Users\stefa\Desktop\rapport\setup.tex
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
@@ -1075,10 +1075,10 @@ INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.d
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.aux
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.aux
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.aux
-OUTPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.aux
+INPUT c:\Users\stefa\Desktop\rapport\main.aux
+INPUT c:\Users\stefa\Desktop\rapport\main.aux
+INPUT c:\Users\stefa\Desktop\rapport\main.aux
+OUTPUT c:\Users\stefa\Desktop\rapport\main.aux
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
@@ -1116,18 +1116,18 @@ INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\ge
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\stefa\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Users\stefa\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.out
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.out
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.out
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.out
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.out
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.out
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.out
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.out
-OUTPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.out
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.out
-OUTPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.out
+INPUT c:\Users\stefa\Desktop\rapport\main.out
+INPUT c:\Users\stefa\Desktop\rapport\main.out
+INPUT c:\Users\stefa\Desktop\rapport\main.out
+INPUT c:\Users\stefa\Desktop\rapport\main.out
+INPUT c:\Users\stefa\Desktop\rapport\main.out
+INPUT c:\Users\stefa\Desktop\rapport\main.out
+INPUT c:\Users\stefa\Desktop\rapport\main.out
+INPUT c:\Users\stefa\Desktop\rapport\main.out
+OUTPUT c:\Users\stefa\Desktop\rapport\main.pdf
+INPUT c:\Users\stefa\Desktop\rapport\main.out
+INPUT c:\Users\stefa\Desktop\rapport\main.out
+OUTPUT c:\Users\stefa\Desktop\rapport\main.out
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -1175,13 +1175,13 @@ INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-case-e
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\biblatex\blx-case-expl3.sty
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
-OUTPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.bcf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.bbl
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.bbl
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.bbl
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.bbl
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.bbl
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.bbl
+OUTPUT c:\Users\stefa\Desktop\rapport\main.bcf
+INPUT c:\Users\stefa\Desktop\rapport\main.bbl
+INPUT c:\Users\stefa\Desktop\rapport\main.bbl
+INPUT c:\Users\stefa\Desktop\rapport\main.bbl
+INPUT c:\Users\stefa\Desktop\rapport\main.bbl
+INPUT c:\Users\stefa\Desktop\rapport\main.bbl
+INPUT c:\Users\stefa\Desktop\rapport\main.bbl
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\pdflscape\pdflscape.sty
@@ -1228,139 +1228,139 @@ INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx248
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
 INPUT C:\Users\stefa\AppData\Local\MiKTeX\pdftex\config\pdftex.map
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Sammendrag.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Sammendrag.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Sammendrag.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Sammendrag.tex
+INPUT c:\Users\stefa\Desktop\rapport\Sammendrag.tex
+INPUT c:\Users\stefa\Desktop\rapport\Sammendrag.tex
+INPUT c:\Users\stefa\Desktop\rapport\Sammendrag.tex
+INPUT c:\Users\stefa\Desktop\rapport\Sammendrag.tex
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1728.tfm
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.toc
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.toc
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.toc
+INPUT c:\Users\stefa\Desktop\rapport\main.toc
+INPUT c:\Users\stefa\Desktop\rapport\main.toc
+INPUT c:\Users\stefa\Desktop\rapport\main.toc
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
-OUTPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.toc
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Innledning.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Innledning.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Innledning.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Innledning.tex
+OUTPUT c:\Users\stefa\Desktop\rapport\main.toc
+INPUT c:\Users\stefa\Desktop\rapport\Innledning.tex
+INPUT c:\Users\stefa\Desktop\rapport\Innledning.tex
+INPUT c:\Users\stefa\Desktop\rapport\Innledning.tex
+INPUT c:\Users\stefa\Desktop\rapport\Innledning.tex
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\figurer\pika.jpg
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\figurer\pika.jpg
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\figurer\pika.jpg
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\figurer\pika.jpg
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\figurer\pika.jpg
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\figurer\pika.jpg
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\figurer\pika.jpg
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\figurer\pika.jpg
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\figurer\pika.jpg
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\figurer\pika.jpg
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\figurer\pika.jpg
+INPUT c:\Users\stefa\Desktop\rapport\figurer\pika.jpg
+INPUT c:\Users\stefa\Desktop\rapport\figurer\pika.jpg
+INPUT c:\Users\stefa\Desktop\rapport\figurer\pika.jpg
+INPUT c:\Users\stefa\Desktop\rapport\figurer\pika.jpg
+INPUT c:\Users\stefa\Desktop\rapport\figurer\pika.jpg
+INPUT c:\Users\stefa\Desktop\rapport\figurer\pika.jpg
+INPUT c:\Users\stefa\Desktop\rapport\figurer\pika.jpg
+INPUT c:\Users\stefa\Desktop\rapport\figurer\pika.jpg
+INPUT c:\Users\stefa\Desktop\rapport\figurer\pika.jpg
+INPUT c:\Users\stefa\Desktop\rapport\figurer\pika.jpg
+INPUT c:\Users\stefa\Desktop\rapport\figurer\pika.jpg
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1095.tfm
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\figurer\pika.jpg
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\figurer\pika.jpg
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\figurer\pika.jpg
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\figurer\pika.jpg
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Teori.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Teori.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Teori.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Teori.tex
+INPUT c:\Users\stefa\Desktop\rapport\figurer\pika.jpg
+INPUT c:\Users\stefa\Desktop\rapport\figurer\pika.jpg
+INPUT c:\Users\stefa\Desktop\rapport\figurer\pika.jpg
+INPUT c:\Users\stefa\Desktop\rapport\figurer\pika.jpg
+INPUT c:\Users\stefa\Desktop\rapport\Teori.tex
+INPUT c:\Users\stefa\Desktop\rapport\Teori.tex
+INPUT c:\Users\stefa\Desktop\rapport\Teori.tex
+INPUT c:\Users\stefa\Desktop\rapport\Teori.tex
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Arbeid.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Arbeid.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Arbeid.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Arbeid.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Resultater.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Resultater.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Resultater.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Resultater.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Diskusjon.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Diskusjon.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Diskusjon.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Diskusjon.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Konklusjon.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Konklusjon.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Konklusjon.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Konklusjon.tex
+INPUT c:\Users\stefa\Desktop\rapport\Arbeid.tex
+INPUT c:\Users\stefa\Desktop\rapport\Arbeid.tex
+INPUT c:\Users\stefa\Desktop\rapport\Arbeid.tex
+INPUT c:\Users\stefa\Desktop\rapport\Arbeid.tex
+INPUT c:\Users\stefa\Desktop\rapport\Resultater.tex
+INPUT c:\Users\stefa\Desktop\rapport\Resultater.tex
+INPUT c:\Users\stefa\Desktop\rapport\Resultater.tex
+INPUT c:\Users\stefa\Desktop\rapport\Resultater.tex
+INPUT c:\Users\stefa\Desktop\rapport\Diskusjon.tex
+INPUT c:\Users\stefa\Desktop\rapport\Diskusjon.tex
+INPUT c:\Users\stefa\Desktop\rapport\Diskusjon.tex
+INPUT c:\Users\stefa\Desktop\rapport\Diskusjon.tex
+INPUT c:\Users\stefa\Desktop\rapport\Konklusjon.tex
+INPUT c:\Users\stefa\Desktop\rapport\Konklusjon.tex
+INPUT c:\Users\stefa\Desktop\rapport\Konklusjon.tex
+INPUT c:\Users\stefa\Desktop\rapport\Konklusjon.tex
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
 INPUT C:\Users\stefa\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Vedlegg.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Vedlegg.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Vedlegg.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\Vedlegg.tex
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\appendixL.pdf
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.aux
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.out
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.out
-INPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.run.xml
-OUTPUT c:\Users\stefa\OneDrive - NTNU\student\krets\rapport\main.run.xml
+INPUT c:\Users\stefa\Desktop\rapport\Vedlegg.tex
+INPUT c:\Users\stefa\Desktop\rapport\Vedlegg.tex
+INPUT c:\Users\stefa\Desktop\rapport\Vedlegg.tex
+INPUT c:\Users\stefa\Desktop\rapport\Vedlegg.tex
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\appendixL.pdf
+INPUT c:\Users\stefa\Desktop\rapport\main.aux
+INPUT c:\Users\stefa\Desktop\rapport\main.out
+INPUT c:\Users\stefa\Desktop\rapport\main.out
+INPUT c:\Users\stefa\Desktop\rapport\main.run.xml
+OUTPUT c:\Users\stefa\Desktop\rapport\main.run.xml
 INPUT C:\Users\stefa\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
 INPUT C:\Users\stefa\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
 INPUT C:\Users\stefa\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
