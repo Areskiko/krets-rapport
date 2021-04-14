@@ -26,7 +26,10 @@ CMOS er en innfallsvinkel for å utvikle digitale kombinatoriske kretser.
         \item[-] PMOS-, og NMOS-transistor: De mest grunnleggende byggeklossene i logiske kretser er disse to formene for transistor, som begge fungerer som brytere.
         PMOS slipper signaler gjennom ved input: lav, og blokkerer dem ved input: høy.
         NMOS fungerer på samme måte, men invertert.
-        Se~\ref{fig:pnmos_transistors} Ved bruk av disse kan man konstruere alle logiske porter.
+        Se figur~\ref{fig:pnmos_transistors} Ved bruk av disse kan man konstruere alle logiske porter.
+        \item[-] NAND port: En to-inngangs NAND port er en logisk port som tar to binære input signaler og utfører funksjonene NOT og AND på dem for å produsere ett output signal.
+        Se figur~\ref{fig:tt_nand} for sannhetstabellen til NAND porten.
+        Se figur~\ref{fig:NAND_transistorlevel} for oppbyggingen av en NAND port med bruk av PMOS-, og NMOS-transistorer.
     \end{itemize}
 
     \begin{figure}[!htb]
@@ -36,28 +39,25 @@ CMOS er en innfallsvinkel for å utvikle digitale kombinatoriske kretser.
         \label{fig:pnmos_transistors}
     \end{figure}
 
-\begin{enumerate}
-    \item Nummert
-    \item Liste
-    \begin{enumerate}
-        \item Med Nøstede
-        \item Elementer
-    \end{enumerate}
-\end{enumerate}
+    \begin{figure}[!htb]
+        \centering
+        \includegraphics[height=6cm]{figurer/NAND_transistorlevel.png}
+        \caption{NAND port på transistornivå.}
+        \label{fig:NAND_transistorlevel}
+    \end{figure}
 
-\begin{enumerate}[label=(\roman*)]
-    \item Nummert
-    \item Liste
-    \begin{enumerate}[label=(\alph*)]
-        \item Med Nøstede
-        \item Elementer
-        \begin{enumerate}[label=(\arabic*)]
-            \item Og
-            \item egne
-            \item labels
-        \end{enumerate}
-    \end{enumerate}
-\end{enumerate}
-
+    \begin{figure}[!htb]
+        \centering
+        \caption{Sannhetstabell for NAND port}
+        \label{fig:tt_nand}
+        \begin{tabular}{|c|c|c|}
+            \hline
+            \textbf{A} & \textbf{B} & \textbf{A NAND B} \\ \hline
+            0 & 0 & 1 \\
+            0 & 1 & 1 \\
+            1 & 0 & 1 \\
+            1 & 1 & 0 \\ \hline
+        \end{tabular}
+    \end{figure}
 
 
