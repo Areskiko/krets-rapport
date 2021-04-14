@@ -18,6 +18,7 @@ CMOS er en innfallsvinkel for å utvikle digitale kombinatoriske kretser.
         Spenning over kondensatoren i en slik krets kan beskrives ved $v_{C}(t) = V_{kilde} \cdot \left( 1 - e^{-\frac{t}{\tau}} \right)$ under oppladning og $v_{C}(t) = V_{kilde} \cdot e^{-\frac{t}{\tau}}$ under utladning.
         Begge er uttrykt ved tiden $t$ gitt i sekunder, og gjelder for $t > 0$.
         $\tau = R \cdot C$, $R$ er motstand målt i Ohm, og $C$ er kapasitans målt i Fahrrad.
+        % TODO source formulas
     \end{itemize}
 
 \subsection{Teori del 2.}
@@ -30,23 +31,27 @@ CMOS er en innfallsvinkel for å utvikle digitale kombinatoriske kretser.
         \item[-] NAND port: En to-inngangs NAND port er en logisk port som tar to binære input signaler og utfører funksjonene NOT og AND på dem for å produsere ett output signal.
         Se figur~\ref{fig:tt_nand} for sannhetstabellen til NAND porten.
         Se figur~\ref{fig:NAND_transistorlevel} for oppbyggingen av en NAND port med bruk av PMOS-, og NMOS-transistorer.
+        \item[-] Kombinatorisk CMOS-logikk: En CMOS krets består av en eller flere logiske porter bygget på PMOS-, og NMOS-transistorer.
     \end{itemize}
 
-    \begin{figure}[!htb]
+    % TODO add sources to figures
+    \begin{figure}[!t]
         \centering
         \includegraphics[height=6cm]{figurer/PNMOS.png}
         \caption{PMOS og NMOS- transistor med deres ideelle ekvivalenter for åpen og lukketkanal.}
         \label{fig:pnmos_transistors}
+        ~\cite{Labhefte}
     \end{figure}
 
-    \begin{figure}[!htb]
+    \begin{figure}[!t]
         \centering
-        \includegraphics[height=6cm]{figurer/NAND_transistorlevel.png}
+        \includegraphics[height=12cm]{figurer/NAND_transistorlevel.png}
         \caption{NAND port på transistornivå.}
         \label{fig:NAND_transistorlevel}
+        ~\cite{Labhefte}
     \end{figure}
 
-    \begin{figure}[!htb]
+    \begin{figure}[!t]
         \centering
         \caption{Sannhetstabell for NAND port}
         \label{fig:tt_nand}

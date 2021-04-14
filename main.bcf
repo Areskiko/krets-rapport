@@ -2348,8 +2348,10 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">mylib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">biblatex</bcf:citekey>
-    <bcf:citekey order="2">tikz_intro</bcf:citekey>
+    <bcf:citekey order="1">Labhefte</bcf:citekey>
+    <bcf:citekey order="2">Labhefte</bcf:citekey>
+    <bcf:citekey order="3">biblatex</bcf:citekey>
+    <bcf:citekey order="4">tikz_intro</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
