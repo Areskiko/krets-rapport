@@ -3,7 +3,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{Sammendrag}{i}{Doc-Start}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Innhold}{ii}{section*.2}%
+\contentsline {section}{Innhold}{iii}{section*.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Innledning}{1}{section.1}%
 \defcounter {refsection}{0}\relax 

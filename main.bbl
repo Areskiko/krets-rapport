@@ -19,100 +19,58 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{biblatex}{manual}{}
-      \name{author}{5}{}{%
-        {{hash=e65de83716f3ee6d5012bb0fce79c9e5}{%
-           family={Lehmann},
-           familyi={L\bibinitperiod},
-           given={Philipp},
-           giveni={P\bibinitperiod}}}%
-        {{hash=518f52ea2d73db1cfac0095db0482363}{%
-           family={Kime},
-           familyi={K\bibinitperiod},
-           given={Philip},
-           giveni={P\bibinitperiod}}}%
-        {{hash=843843de0b989cd0bb58bc44297d11a7}{%
-           family={Wemhauer},
-           familyi={W\bibinitperiod},
-           given={Moritz},
+    \entry{Labhefte}{manual}{}
+      \name{author}{6}{}{%
+        {{hash=18d76753c2ffcdb4f392406d33030c80}{%
+           family={Svarstad},
+           familyi={S\bibinitperiod},
+           given={Kjetil},
+           giveni={K\bibinitperiod}}}%
+        {{hash=40efed869f93956cc0cb00b35ad674a9}{%
+           family={Yassin},
+           familyi={Y\bibinitperiod},
+           given={Yahya\bibnamedelima H.},
+           giveni={Y\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=93940ef4232f4a0e02130fa0d06b992b}{%
+           family={Helland},
+           familyi={H\bibinitperiod},
+           given={Ingulf},
+           giveni={I\bibinitperiod}}}%
+        {{hash=33c36de050b007031d445222ecec487e}{%
+           family={Solvang},
+           familyi={S\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a79ce829bfcf6a70fa582ba010d6d304}{%
+           family={Rostad},
+           familyi={R\bibinitperiod},
+           given={Morten},
            giveni={M\bibinitperiod}}}%
-        {{hash=f551f4df6b727289e225343a679ca7ab}{%
-           family={Boruvka},
-           familyi={B\bibinitperiod},
-           given={Audrey},
-           giveni={A\bibinitperiod}}}%
-        {{hash=93c71fed62527d4c8c6ae13ee771fcdd}{%
-           family={Wright},
-           familyi={W\bibinitperiod},
-           given={Joseph},
-           giveni={J\bibinitperiod}}}%
+        {{hash=fa919b95a9d42b1ad8a71216e66e9420}{%
+           family={Haugane},
+           familyi={H\bibinitperiod},
+           given={Sveinung},
+           giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{19d4dad205060ff5ada173d8bd583aae}
-      \strng{fullhash}{1c93bbfa2ff6b047f952a40c59120753}
-      \strng{bibnamehash}{1c93bbfa2ff6b047f952a40c59120753}
-      \strng{authorbibnamehash}{1c93bbfa2ff6b047f952a40c59120753}
-      \strng{authornamehash}{19d4dad205060ff5ada173d8bd583aae}
-      \strng{authorfullhash}{1c93bbfa2ff6b047f952a40c59120753}
+      \list{organization}{1}{%
+        {NTNU}%
+      }
+      \strng{namehash}{c25bc9c6ccb29aa4e13d9d70179e603c}
+      \strng{fullhash}{111dee931fdf4752c3d320d5b9beddbc}
+      \strng{bibnamehash}{111dee931fdf4752c3d320d5b9beddbc}
+      \strng{authorbibnamehash}{111dee931fdf4752c3d320d5b9beddbc}
+      \strng{authornamehash}{c25bc9c6ccb29aa4e13d9d70179e603c}
+      \strng{authorfullhash}{111dee931fdf4752c3d320d5b9beddbc}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{30}
-      \field{month}{10}
-      \field{subtitle}{Programmable Bibliographies and Citations}
-      \field{title}{The Biblatex Package Documentation}
-      \field{urlday}{26}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{version}{3.12}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb http://ctan.uib.no/macros/latex/contrib/biblatex/doc/biblatex.pdf
-      \endverb
-      \verb{url}
-      \verb http://ctan.uib.no/macros/latex/contrib/biblatex/doc/biblatex.pdf
-      \endverb
-    \endentry
-    \entry{tikz_intro}{manual}{}
-      \name{author}{1}{}{%
-        {{hash=319838d208e70165e92793ad8ed96cb3}{%
-           family={Crémer},
-           familyi={C\bibinitperiod},
-           given={Jacques},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {Toulouse School of Economics}%
-      }
-      \strng{namehash}{319838d208e70165e92793ad8ed96cb3}
-      \strng{fullhash}{319838d208e70165e92793ad8ed96cb3}
-      \strng{bibnamehash}{319838d208e70165e92793ad8ed96cb3}
-      \strng{authorbibnamehash}{319838d208e70165e92793ad8ed96cb3}
-      \strng{authornamehash}{319838d208e70165e92793ad8ed96cb3}
-      \strng{authorfullhash}{319838d208e70165e92793ad8ed96cb3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{11}
-      \field{month}{3}
-      \field{title}{A very minimal introduction to TikZ*}
-      \field{urlday}{26}
-      \field{urlmonth}{3}
-      \field{urlyear}{2019}
-      \field{year}{2011}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://cremeronline.com/LaTeX/minimaltikz.pdf
-      \endverb
-      \verb{url}
-      \verb https://cremeronline.com/LaTeX/minimaltikz.pdf
-      \endverb
+      \field{title}{TFE4101Krets- og digitalteknikkLaboratoriehefteVår 2019}
+      \field{year}{2019}
     \endentry
   \enddatalist
+  \missing{biblatex}
+  \missing{tikz_intro}
 \endrefsection
 \endinput
 
