@@ -6,7 +6,7 @@ Ved porter refereres det til inngangene på veroboard sokkel, som samsvarer med 
 \subsection{RC-Krets}
 
 \subsubsection{Lodding}
-Først ble kretsen, som beskrevet i Figur~\ref{fig:krets_3_3}, loddet på kretskortet. En 1k$\Omega$ motstand ble loddet på posisjon $R_{10}$, og en 15nF kondensator ble loddet på posisjon $C_{1}$
+Først ble kretsen, som beskrevet i Figur \ref{fig:rc}, loddet på kretskortet. En $1k\Omega$ motstand ble loddet på posisjon $R_{10}$, og en 15nF kondensator ble loddet på posisjon $C_{1}$
 
 \begin{figure}[!htb]
     \centering
@@ -24,8 +24,8 @@ Først ble kretsen, som beskrevet i Figur~\ref{fig:krets_3_3}, loddet på kretsk
         \node [above left] at (12,2) {$C_{1}=1nF$};
         \node [above left] at (0, 2) {$Sig.gen=(0,4)V$};
     \end{circuitikz}
-    \caption{RC Krets}
-    \label{fig:krets_3_3}
+    \caption{RC-Krets}
+    \label{fig:rc}
 \end{figure}
 
 \subsubsection{Signalgenerator}
@@ -54,33 +54,67 @@ Legg spesielt merke til hvordan man kun kildene som faktisk referes til vises.
 \subsection{CMOS logikk}
 
 \subsubsection{Lodding}
-Først ble kretsen, som beskrevet i figur 2 (3-3), loddet opp på kretskortet, med verdier som anvist i figuren. I tillegg måtte strappingen S2 loddes inn for koblet sammen logikk kretsen og driver kretsen.
+Først ble kretsen, som beskrevet i Figur \ref{fig:lg}, loddet opp på kretskortet, med verdier som anvist i figuren. I tillegg måtte strappingen S2 loddes inn for koblet sammen logikk kretsen og driver kretsen.
 
 
 \begin{figure}[!htb]
     \centering
     \begin{circuitikz}
-        \draw (0,4) node[circ, scale=1.5] (A){A};
-        \draw (0,2) node[circ, scale=1.5] (B){B};
+        % Draw components
+        \draw (0,2) node[circ, scale=1.5] (A){A};
+        \draw (0,1) node[circ, scale=1.5] (B){B};
         \draw (0,0) node[circ, scale=1.5] (C){C};
 
-        \draw (2, -4) node[genericshape, rotate=90] (R4){$R_4$};
+        \draw (1, -2) node[genericshape, rotate=90] (R4){$R_4=1.5M\Omega$};
+        \draw (2, -2) node[genericshape, rotate=90] (R3){$R_3=1.5M\Omega$};
+        \draw (3, -2) node[genericshape, rotate=90] (R2){$R_2=1.5M\Omega$};
+        \draw (8, -2) node[genericshape, rotate=90] (R5){$R_5=4.7k\Omega$};
+        \draw (9, 2) node[genericshape] (R6){$R_6=4.7k\Omega$};
+        \draw (12, -2) node[genericshape, rotate=90] (R7){$R_7=4.7k\Omega$};
 
-        \draw (2,0) node[circ, scale=1.5] (R4P){};
-        \draw (4,2) node[circ, scale=1.5] (R3P){};
-        \draw (6,4) node[circ, scale=1.5] (R2P){};
+        \draw (1,0) node[circ, scale=1.5] (R4P){};
+        \draw (2,1) node[circ, scale=1.5] (R3P){};
+        \draw (3,2) node[circ, scale=1.5] (R2P){};
+        \draw (2, -3) node[circ, scale=1.5] (JP){};
+        \draw (8, 2) node[circ, scale=1.5] (GP){};
+        
+        \draw (2, -4) node[ground] (G){$V_{SS} - Jord$};
+        \draw (8, -4) node[ground] (G2){$V_{SS} - Jord$};
+        \draw (12, -5) node[ground] (G3){$V_{SS} - Jord$};
 
-        \draw (10,1) node[and port] (and1){};
-        \draw (12,3) node[and port] (and2){};
+        \draw (12, 4) node[vcc] (vdd){$V_{DD}$};
 
-        \draw (C) -| (and1.in 2);
-        \draw (B) -| (and1.in 1);
-        \draw (A) -| (and2.in 1);
+        \draw (5,1) node[nand port] (nand1){};
+        \draw (7,2) node[nand port] (nand2){};
+
+        \draw (12, 2) node[npn] (npn){BC547C};
+
+        \draw (12, -4) node[emptydiodeshape, rotate=-90] (diode){Lysdiode};
+
+        % Draw lines
+        \draw (C) -| (nand1.in 2);
+        \draw (B) -| (nand1.in 1);
+        \draw (A) -| (nand2.in 1);
+        \draw (G) -- (JP);
+        \draw (G2) -- (R5);
+        \draw (R5) -- (GP);
+        \draw (nand2.out) -- (GP);
+        \draw (GP) -- (R6);
+        \draw (R6) -- (npn);
+        \draw (JP) -| (R4);
+        \draw (JP) -| (R3);
+        \draw (JP) -| (R2);
         \draw (R4) -- (R4P);
-        \draw (and1.out) -| (and2.in 2);
+        \draw (R3) -- (R3P);
+        \draw (R2) -- (R2P);
+        \draw (npn.E) -- (R7);
+        \draw (npn.C) -- (vdd);
+        \draw (R7) -- (diode);
+        \draw (diode) -- (G3);
+        \draw (nand1.out) -| (nand2.in 2);
     \end{circuitikz}
-    \caption{Logisk Krets}
-    \label{fig:krets_3_3}
+    \caption{Logisk-Krets}
+    \label{fig:lg}
 \end{figure}
 
 \subsubsection{Måling}

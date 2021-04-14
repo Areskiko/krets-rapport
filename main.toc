@@ -35,12 +35,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3}tikz}{6}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Resultater}{7}{section.4}%
+\contentsline {section}{\numberline {4}Resultater}{8}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Matte i LateX}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Matte i LateX}{8}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Diskusjon}{8}{section.5}%
+\contentsline {section}{\numberline {5}Diskusjon}{9}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Konklusjon}{9}{section.6}%
+\contentsline {section}{\numberline {6}Konklusjon}{10}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Referanser}{10}{section*.10}%
+\contentsline {section}{Referanser}{11}{section*.10}%
