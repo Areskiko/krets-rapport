@@ -1,7 +1,7 @@
 \section{Gjennomføring}
 
-Gjennomføringen deles i to hoveddeler, RC-Krets og CMOS logikk. De to arbeidene er uavhengige av hverandre.\\
-Ved porter refereres det til inngangene på veroboard sokkel, som samsvarer med de nederst på kretskort figuren i appendiks 1
+Gjennomføringen deles i to hoveddeler, RC-Krets og CMOS logikk. De to arbeidene er uavhengige av hverandre. 
+Ved porter refereres det til inngangene på veroboard sokkel, som samsvarer med de nederst på kretskort figuren i appendiks L
 
 \subsection{RC-Krets}
 
@@ -12,17 +12,17 @@ Først ble kretsen, som beskrevet i Figur \ref{fig:rc}, loddet på kretskortet. 
     \centering
     \begin{circuitikz}
         \draw
-            (0,0) to [vsourcesquare] (0,6)
-            to [european resistor] (12,6)
-            to [capacitor] (12,0) -- (0,0)
+            (0,0) to [vsourcesquare] (0,5)
+            to [european resistor] (10,5)
+            to [capacitor] (10,0) -- (0,0)
         ;
-        \draw[fill] (0,6) circle [radius=0.1];
-        \draw[fill] (12,6) circle [radius=0.1];
-        \draw[fill] (12,0) circle [radius=0.1];
+        \draw[fill] (0,5) circle [radius=0.1];
+        \draw[fill] (10,5) circle [radius=0.1];
+        \draw[fill] (10,0) circle [radius=0.1];
         \draw[fill] (0,0) circle [radius=0.1];
-        \node [above] at (6,5) {$R_{10}=1k\Omega$};
-        \node [above left] at (12,2) {$C_{1}=1nF$};
-        \node [above left] at (0, 2) {$Sig.gen=(0,4)V$};
+        \node [above] at (5,4) {$R_{10}=1k\Omega$};
+        \node [above left] at (10,1) {$C_{1}=1nF$};
+        \node [above left] at (0, 1) {$Sig.gen=(0,4)V$};
     \end{circuitikz}
     \caption{RC-Krets}
     \label{fig:rc}
@@ -32,23 +32,8 @@ Først ble kretsen, som beskrevet i Figur \ref{fig:rc}, loddet på kretskortet. 
 Signalgeneratoren ble stilt inn slik at den sendte ut en firkantpuls med frekvens på 3 KHz og amplitude på 4V, med 2V i offset slik at signalet har toppunkt i 4V og bunnpunkt i 0V.
 
 \subsubsection{Måling}
-Signalgeneratoren, ved hjelp av et T-ledd, ble så koblet til både kretsen via veroboardet (port 19 og port 17), og til oscilloskopet. Ved å måle spenningen over kondensatoren vc (port 18 og port 17) og spenningen fra generatoren på forskjellige kanaler var det mulig å se både spenningen som signalgeneratoren påtrykte, og hvordan spenningen endret seg etter å ha gått gjennom kondensatoren.
-
-\subsubsection{Sitering}
-I dette dokumentet har jeg valgt å bruke Biblatex. Det er flere forskjellige pakker tilgjengelig for
-kildehenvisning, men det er denne jeg er mest kjent med. For å sitere en kilde er dere nødt til å gjøre 4 ting:
-\begin{enumerate}
-    \item definere referansestil og referansebibliotekfil (gjort i setup.tex).
-    \item lage selve kilden i en .bib-fil.
-    \item referere ved å benytte cite-kommandoen.
-    \item printe referanseliste med printbibliography-kommandoen (gjort i main.tex).
-\end{enumerate}
-
-I mylib.bib finner dere noen eksempler på kilder. Ellers kan jeg anbefale dokumentasjonen for biblatex \cite{biblatex}.
-Nå som vi har referert til en kilde legges denne til i lista. Der havner de i rekkefølgen de ble referert til.
-Legg spesielt merke til hvordan man kun kildene som faktisk referes til vises. 
-
-%Hvis dere fjerner kommentaren på denne kilden~\cite{airsim_ikke_i_bruk}, vil den også vises i lista.
+Signalgeneratoren, ved hjelp av et T-ledd, ble så koblet til både kretsen via veroboardet (port 19 og port 17), og til oscilloskopet. Ved å måle spenningen over kondensatoren vc (port 18 og port 17) og spenningen fra generatoren på forskjellige kanaler var det mulig å se både spenningen som signalgeneratoren påtrykte, og hvordan spenningen endret seg etter å ha gått gjennom kondensatoren. 
+$\tau$ ble også målt, dette ved å plassere en "cursor"\ på det punktet der kondensatoren var ladet 2/3 i oscilloskopet og lese av tiden det tok for kondensatoren å nå det punktet.
 
 \newpage % bruk denne for å starte en ny side.
 \subsection{CMOS logikk}
@@ -78,8 +63,8 @@ Først ble kretsen, som beskrevet i Figur \ref{fig:lg}, loddet opp på kretskort
         \draw (2, -3) node[circ, scale=1.5] (JP){};
         \draw (8, 2) node[circ, scale=1.5] (GP){};
         
-        \draw (2, -4) node[ground] (G){$V_{SS} - Jord$};
-        \draw (8, -4) node[ground] (G2){$V_{SS} - Jord$};
+        \draw (2, -5) node[ground] (G){$V_{SS} - Jord$};
+        \draw (8, -5) node[ground] (G2){$V_{SS} - Jord$};
         \draw (12, -5) node[ground] (G3){$V_{SS} - Jord$};
 
         \draw (12, 4) node[vcc] (vdd){$V_{DD}$};
@@ -89,7 +74,7 @@ Først ble kretsen, som beskrevet i Figur \ref{fig:lg}, loddet opp på kretskort
 
         \draw (12, 2) node[npn] (npn){BC547C};
 
-        \draw (12, -4) node[emptydiodeshape, rotate=-90] (diode){Lysdiode};
+        \draw (12, -4) node[emptydiodeshape, rotate=-90] (diode){};
 
         % Draw lines
         \draw (C) -| (nand1.in 2);
@@ -121,81 +106,3 @@ Først ble kretsen, som beskrevet i Figur \ref{fig:lg}, loddet opp på kretskort
 Det ble så målt spenningene til nodene D og Q på figur 2 med forskjellige inn-signaler på A, B, og C. 
 Spenningene ble målt i fra jord (VSS). For å måle spenningen til node D ble proben til oscilloskop satt på port 9 (VSS) og port 4 på veroboard sokkelen. 
 For node Q ble port 9 og port 5 brukt.
-
-
-
-\subsection{tikz}
-Tikz er et veldig kraftig tegneverktøy til Latex, og denne innføringen skraper bare såvidt på overfraten.
-I denne pakken er det så mange muligheter at jeg ikke kommer til å skrive noe detaljert rundt det.
-For en introduksjon til grunnpakken av tikz, kan dere se på Jaques Crémer sin introduksjon \cite{tikz_intro}.
-
- viser en enkel kretstegning tegnet med circuitikz-pakken, mens figur~\ref{fig:arb_3D_fig} er vesentlig mye mer avansert, og benytter seg av tikz-3dplots-pakken.
-
-
-% --------------------------------------------------------------------------
-% Dette er kun for de som er interessert i mer avansert figurlaging med Tikz
-% --------------------------------------------------------------------------
-
-% \begin{figure}[!htb]
-%     \centering
-%     \tdplotsetmaincoords{70}{100}
-%     \begin{tikzpicture}[tdplot_main_coords, scale = 0.7]
-%         \coordinate (O) at (0,0,0);
-        
-%         \pgfmathsetmacro{\rvec}{4}
-%         \pgfmathsetmacro{\thetavec}{120}
-%         \pgfmathsetmacro{\phivec}{50}
-        
-%         \tdplotsetcoord{P}{\rvec}{\phivec}{\thetavec}
-        
-%         \draw[thick, ->] (-3,0,0) -- (5,0,0) node [below left]{$x$};
-%         \draw[thick, ->] (0,-1,0) -- (0,5,0) node [below right]{$y$};
-%         \draw[thick, ->] (0,0,-1) -- (0,0,5) node [below left]{$z$};
-        
-%         \draw[->, thick, red] (O) -- (P);
-%         \draw[] (P) node[above right]{$P$};
-%         \node at (P){\textbullet};
-%         \draw[dashed, thick, red] (O) -- (Pxy);
-%         \draw[dashed, thick, blue] (Pxy) -- (0,2.654,0); %rsin(theta)sin(phi)
-%         \draw[dashed, thick, blue] (Pxy) -- (-1.286,0,0); %rcos(theta)sin(phi)
-%         \draw[dashed, thick, green] (P) -- (0,0,2.571); %rcos(phi)
-        
-%         \tdplotdrawarc{(O)}{1}{0}{\thetavec}{anchor=north}{$\theta$}
-%         \tdplotsetthetaplanecoords{\thetavec}
-%         \tdplotdrawarc[tdplot_rotated_coords]{(O)}{1}{0}{\phivec}{anchor=south west}{$\phi$}
-        
-%         \foreach \angle in {0,60,...,300} {
-%             \tdplotsetthetaplanecoords{\angle}
-%             \ifthenelse{\angle=\thetavec}{
-%                 \draw[tdplot_rotated_coords] (\rvec,0,0) arc (0:180:\rvec);
-%             }{
-%                 \ifthenelse{\angle<90 \OR \angle>270}{
-%                     \draw[tdplot_rotated_coords] (\rvec,0,0) arc (0:180:\rvec);
-%                 }{
-%                     \draw[dash pattern=on 3pt off 10pt,tdplot_rotated_coords] (\rvec,0,0) arc (0:180:\rvec);
-%                 }
-%             }
-%         } % end \foreach
-        
-%         \draw[] (0,-\rvec,0) arc (-90:120:\rvec);
-%         \draw[dashed] (120:\rvec) arc (120:270:\rvec);
-        
-%         \foreach \angle in {-60,-59.5,...,0} {
-%             \tdplotsetthetaplanecoords{\angle}
-%             \draw[tdplot_rotated_coords, color = gray!60, opacity = 0.7] (0:\rvec) arc (0:180:\rvec);
-%         } % end foreach
-        
-%         \shade[ball color = blue!40, opacity = 0.4] (0,0) circle (4cm); %cm does fix things :O
-        
-%         \tdplotsetrotatedcoordsorigin{(P)}
-%         \tdplotsetrotatedcoords{0}{-90}{90}
-%         \draw[tdplot_rotated_coords,->] (-1,0,0) -- (3,0,0) node [below right]{$x'$};
-%         \draw[tdplot_rotated_coords,->] (0,-1,0) -- (0,3,0) node [right]{$y'$};
-%         \draw[tdplot_rotated_coords,->] (0,0,-1) -- (0,0,3) node [above right]{$z'$};
-    
-%     \end{tikzpicture}
-    
-    
-%     \caption{Avansert 3D-figur}
-%     \label{fig:arb_3D_fig}
-% \end{figure}

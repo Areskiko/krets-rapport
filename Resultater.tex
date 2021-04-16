@@ -1,52 +1,38 @@
 \section{Resultater}
 
-Resultatdelen er stort sett den som inneholder flest figurer og bilder. 
-Denne delen av rapporten skal vise resultatene av målingene og testingen dere har gjort,
-på en så oversiktlig måte som mulig. oscilloskopbilder er typisk noe man presenterer i denne delen.
+Resultatene fra begge forsøkene ble skrevet ned i labjournalen før den ble digitalisert
 
-I tillegg er det ofte lurt å samle lignende resultater i en tabell. Det gjør både at det er lettere
-å refere til, og at det er mer oversiktlig for leser.
+\subsection{RC-Krets}
 
-\subsection{Matte i LateX}
+Som Figur~\ref{fig:rc-resultater} viser hang spenningen over kondensatoren etter spenningen fra signalgeneratoren 
 
-Det er en stor del som står igjen, og det er formler og formelreferering i LaTeX. I LaTeX har man forskjellige scopes,
-som dere har sett i bruk flere steder. Spesielt for matte-scopet er at det er helt egne symboler, tegn og fonter definert.
-For å aksessere dette benyttes enten begin equation eller \$ <matte> \$. Feks. $x+y=z$. Den samme ligningen er gjengitt i ligning~\eqref{eq:res_enkel_ligning}.
-Vær obs på forskjellen mellom å referere til figur, tabell og ligning. Henholdsvis figur~\ref{fig:inl_6cm_pika}, tabell~\ref{tab:inl_multi_tabell} og ligning~\eqref{eq:res_aligned}.
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[height=6cm]{figurer/RC-figur.pdf}
+    \caption{Spenningen over kondensatoren og signalgeneratoren}
+    \label{fig:rc-resultater}
+\end{figure}
 
-\begin{equation}
-    x + y = z
-    \label{eq:res_enkel_ligning}
-\end{equation}
+$\tau$ ble målt til å være $17\cdot 10^{-6}s$
 
+\subsection{CMOS logikk}
 
-\begin{equation}
-    % Aligned benyttes for flere linjer med ett nummer
-    \begin{aligned}
-        f(x) &= 3x^2 + 4x - 3 \\
-            &= 3 \cdot 4^2 + 4 \cdot 4 - 3 \\
-            &= 61
-    \end{aligned}
-    \label{eq:res_aligned}
-\end{equation}
+Figur~\ref{fig:cmos-resultater} viser spenningene målt ved punktene D og Q fra CMOS logikk kretsen som vist i Figur~\ref{fig:rc}. Målingene av D og Q er gjort i Volt.
 
-% Align kan brukes for å nummerere hver rad. Dette er også matte-scope.
-% For referering er det veldig vessentlig hvor \label{} plasseres
-\begin{align}
-    \label{eq:res_rad1}
-    x &= 3 \\
-    \label{eq:res_rad2}
-    y &= 4 \\
-    \label{eq:res_rad3}
-    z &= x + y = 3 + 4 = 7
-\end{align}
-
-Aligned innenfor equation scope, slik som vist i ligning~\eqref{eq:res_aligned}, skiller seg fra align scope, vist i ligning~\eqref{eq:res_rad1},~\eqref{eq:res_rad2}~og~\eqref{eq:res_rad3}. 
-I ligning~\eqref{eq:res_grense_integrasjon} er pakken amsmath tatt i bruk for å få spesielle symboler.
-
-\begin{equation}
-    \lim_{x \to \infty} \int_{0}^{3} 3xy \,dy 
-    = \lim_{x \to \infty} \left( \frac{3}{2}x \cdot 3 - \frac{3}{2}x \cdot 0 \right)
-    = \lim_{x \to \infty} \frac{9}{2}x \rightarrow \infty
-    \label{eq:res_grense_integrasjon}
-\end{equation}
+\begin{figure}[!htb]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{A} & \textbf{B} & \textbf{C} & \textbf{D} & \textbf{Q} \\ \hline
+        0 & 0 & 0 & 9 & 8.4 \\
+        1 & 0 & 0 & 9 & 0 \\
+        1 & 1 & 0 & 9 & 0 \\
+        1 & 0 & 1 & 9 & 0 \\
+        1 & 1 & 1 & 0 & 0 \\
+        0 & 0 & 1 & 9 & 8.4 \\
+        0 & 1 & 0 & 9 & 8.4 \\
+        0 & 1 & 1 & 0 & 8.7 \\ \hline
+    \end{tabular}
+    \caption{Målingene av CMOS spenningene}
+    \label{fig:cmos-resultater}
+\end{figure}
