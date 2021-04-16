@@ -1,27 +1,40 @@
-\section{Teori}
+\section{Innledning og Teori}
 
 Denne labben bestod av to forsøk, første del gikk ut på å gjøre målinger av en RC-krets ved hjelp av oscilloskop.
 Med hensikt å analysere en kondensators effekt på et AC signal.
 Andre del gikk ut på å analysere en CMOS krets med forskjellige inngangssignaler;
 CMOS er en innfallsvinkel for å utvikle digitale kombinatoriske kretser.
 
-\subsection{Teori del 1.}
+\subsection{Kondensatorer og RC kretser}
 
     \begin{itemize}
         \item[-] Kondensator: En kondensator er en passiv elektrisk komponent viss bruksområde er å lagre elektrisk ladning.
         Den består av to elektroder skilt med et dielektrisk materiale.
         Et dielektrisk materiale har elektrisk isolerende egenskaper og polariseres når det påvirkes av et elektrisk felt.
-        Kondensatorer beskrives symbolsk ved uttrykket $F = \frac{Q}{U}$, der $Q$ er ladning målt i Coulomb, $U$ er spenning målt i Volt og $F$ er kapasitansen målt i Fahrrad.
+        Kondensatorer beskrives symbolsk ved likningen \ref{eq:farads}.
+        \begin{equation}
+            F = \frac{Q}{U}
+            \label{eq:farads}
+        \end{equation}
+        I likning \ref{eq:farads} er $Q$ ladning målt i Coulomb, $U$ er spenning målt i Volt og $F$ er kapasitansen målt i Fahrrad.
         Fahrrad tilsvarer altså Coulomb/Volt.
         Kapasitansen beskriver mengden elektroner som må tilføres elektrodene for å danne en gitt spenning over dem.
         \item[-] RC-Krets: En enkel RC-krets består av en motstand og en kondensator koblet i serie se figur (3-1 ish).
-        Spenning over kondensatoren i en slik krets kan beskrives ved $v_{C}(t) = V_{kilde} \cdot \left( 1 - e^{-\frac{t}{\tau}} \right)$ under oppladning og $v_{C}(t) = V_{kilde} \cdot e^{-\frac{t}{\tau}}$ under utladning.
-        Begge er uttrykt ved tiden $t$ gitt i sekunder, og gjelder for $t > 0$.
+        Spenning over kondensatoren i en slik krets kan beskrives ved \ref{eq:rc-oppladning} under oppladning og \ref{eq:rc-utladning} under utladning.
+        \begin{equation}
+            v_{C}(t) = V_{kilde} \cdot \left( 1 - e^{-\frac{t}{\tau}} \right)
+            \label{eq:rc-oppladning}
+        \end{equation}
+        \begin{equation}
+            v_{C}(t) = V_{kilde} \cdot e^{-\frac{t}{\tau}}
+            \label{eq:rc-utladning}
+        \end{equation}
+        Begge er uttrykt ved tiden $t$ gitt i sekunder, og gjelder for $t \geq 0$.
         $\tau = R \cdot C$, $R$ er motstand målt i Ohm, og $C$ er kapasitans målt i Fahrrad.
         % TODO source formulas
     \end{itemize}
 
-\subsection{Teori del 2.}
+\subsection{Transistorer}
 
     \begin{itemize}
         \item[-] PMOS-, og NMOS-transistor: De mest grunnleggende byggeklossene i logiske kretser er disse to formene for transistor, som begge fungerer som brytere.
@@ -34,26 +47,24 @@ CMOS er en innfallsvinkel for å utvikle digitale kombinatoriske kretser.
         \item[-] Kombinatorisk CMOS-logikk: En CMOS krets består av en eller flere logiske porter bygget på PMOS-, og NMOS-transistorer.
     \end{itemize}
 
-    \begin{figure}[!t]
+    \begin{figure}[!htb]
         \centering
-        \includegraphics[height=6cm]{figurer/PNMOS.png}
+        \includegraphics[height=4cm]{figurer/PNMOS.png}
         \caption{PMOS og NMOS- transistor med deres ideelle ekvivalenter for åpen og lukketkanal.}
         \label{fig:pnmos_transistors}
         ~\cite{labhefte}
     \end{figure}
 
-    \begin{figure}[!t]
+    \begin{figure}[!htb]
         \centering
-        \includegraphics[height=12cm]{figurer/NAND_transistorlevel.png}
+        \includegraphics[height=8cm]{figurer/NAND_transistorlevel.png}
         \caption{NAND port på transistornivå.}
         \label{fig:NAND_transistorlevel}
         ~\cite{labhefte}
     \end{figure}
 
-    \begin{figure}[!t]
+    \begin{figure}[!htb]
         \centering
-        \caption{Sannhetstabell for NAND port}
-        \label{fig:tt_nand}
         \begin{tabular}{|c|c|c|}
             \hline
             \textbf{A} & \textbf{B} & \textbf{A NAND B} \\ \hline
@@ -62,4 +73,6 @@ CMOS er en innfallsvinkel for å utvikle digitale kombinatoriske kretser.
             1 & 0 & 1 \\
             1 & 1 & 0 \\ \hline
         \end{tabular}
+        \caption{Sannhetstabell for NAND port}
+        \label{fig:tt_nand}
     \end{figure}

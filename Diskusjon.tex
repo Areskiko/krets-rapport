@@ -1,11 +1,11 @@
 \section{Diskusjon}
 
-\subsection{Diskusjon del 1.}
+\subsection{RC-Krets}
 
     Tau ble målt til $17 \cdot 10^{-6} \Omega F$, målingen viser et avvik fra det teoretiske $15 \cdot 10^{-6} \Omega F$ på ca $13.4$ prosent.
     Dette er ikke oppsiktsvekkende, da målemetoden vår delvis baserte seg på et øyemål på oscilloskopet.
     Videre avvikskilder kan svare til avvik i verdier fra komponentspesifikasjonene (se appendiks G) og motstand i ledninger ol.
-    Som forventet av teorien viser målingene~\ref{fig:rc-resultater} at spenningen over kondensatoren ikke direkte følger spenningskilden, men er en demping av den over tid.
+    Som forventet av teorien viser målingene$^{\ref{fig:rc-resultater}}$ at spenningen over kondensatoren ikke direkte følger spenningskilden, men er en demping av den over tid.
     Kondensatoren virker altså som en motstand mot endring i spenningen i kretsen.
     Konsekvensene av dette er mange, kondensatorer kan for eksempel brukes til å filtrere høyfrekvent støy i et analogt signal.
     Ettersom kondensatorer motstår momentane endringer i spenning vil høyfrekvente spenningsendringer kun føre til små endringer i den totale spenningen.
@@ -13,13 +13,13 @@
     Vår enkle RC krets kan sees på som at den ‘skviser’ firkantpulssignalet sammen mot likevektslinjen, i dette tilfellet to volt, og med en høyere kapasitans (eller motstand) vil denne ‘skvisefaktoren’ blitt sterkere, og trende spenningen mot likevektslinjen.
     Vi kan tenke oss at dersom RC går mot uendelig går spenningen mot v0.
 
-\subsection{Diskusjon del 2.}
+\subsection{CMOS logikk}
 
     Resultatene av målingene av den kombinatoriske kretsen var som forventet, men det var en måling som stakk seg ut.
     Port Q er en NAND port og gav derfor output HØY når èn eller begge av inngangene stod på HØY.
-    Allikevel måltes spenningen over Q høyere i det tilfellet der begge inngangene stod på LAV~\ref{fig:cmos-resultater}.
+    Allikevel måltes spenningen over Q høyere i det tilfellet der begge inngangene stod på LAV$^{\ref{fig:cmos-resultater}}$.
     Porter har intern motstand i transistorene de består av.
-    Ved å analysere NMOS-transistorene i NAND-porten~\ref{fig:NAND_transistorlevel} som motstander finner vi forklaringen på avviket.
+    Ved å analysere NMOS-transistorene i NAND-porten$^{\ref{fig:NAND_transistorlevel}}$ som motstander finner vi forklaringen på avviket.
     Når kun ett av inngangssignalene står LAV går strømmen kun gjennom èn av NMOS-transistorene i porten, som kan sees ekvivalent med at spenningen fra driverkretsen (9V) påvirkes av en (liten) motstand.
     I det tilfelle der begge står LAV vil strømmen kunne gå gjennom begge NMOS-transistorene.
     % TODO legg til teorireferanse
