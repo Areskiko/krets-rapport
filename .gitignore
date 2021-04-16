@@ -8,5 +8,5 @@
 *.out
 *.gz
 *.toc
-*.pdf
+main.pdf
 main.synctex(busy)
