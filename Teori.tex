@@ -7,7 +7,6 @@
     Logiske kretser eksisterer i grenseland mellom ren matematikk og fysikk.
     Når en designer en krets på portnivå annses signaler vanligvis å være entydige binære verdier, men om man så analyserer kretsen på et lavere plan viser det seg at det ikke nødvendigvis er tilfellet.
     Dette forsøket tar for seg en sentral problemstilling ved det å designe logiske kretser 'for the real world'.
-
 \subsection{Kondensatorer og RC kretser}
 
     \begin{itemize}
@@ -22,7 +21,7 @@
         I likning \ref{eq:farads} er $Q$ ladning målt i Coulomb, $U$ er spenning målt i Volt og $F$ er kapasitansen målt i Fahrrad.
         Fahrrad tilsvarer altså Coulomb/Volt.
         Kapasitansen beskriver mengden elektroner som må tilføres elektrodene for å danne en gitt spenning over dem.
-        \item[-] RC-Krets: En enkel RC-krets består av en motstand og en kondensator koblet i serie se figur (3-1 ish).
+        \item[-] RC-Krets: En enkel RC-krets består av en motstand og en kondensator koblet i serie se Figur \ref{fig:rc}.
         Spenning over kondensatoren i en slik krets kan beskrives ved \ref{eq:rc-oppladning} under oppladning og \ref{eq:rc-utladning} under utladning.
         \begin{equation}
             v_{C}(t) = V_{kilde} \cdot \left( 1 - e^{-\frac{t}{\tau}} \right)
@@ -43,10 +42,10 @@
         \item[-] PMOS-, og NMOS-transistor: De mest grunnleggende byggeklossene i logiske kretser er disse to formene for transistor, som begge fungerer som brytere.
         PMOS slipper signaler gjennom ved input: lav, og blokkerer dem ved input: høy.
         NMOS fungerer på samme måte, men invertert.
-        Se figur~\ref{fig:pnmos_transistors} Ved bruk av disse kan man konstruere alle logiske porter.
+        Se Figur~\ref{fig:pnmos_transistors} Ved bruk av disse kan man konstruere alle logiske porter.
         \item[-] NAND port: En to-inngangs NAND port er en logisk port som tar to binære input signaler og utfører funksjonene NOT og AND på dem for å produsere ett output signal.
-        Se figur~\ref{fig:tt_nand} for sannhetstabellen til NAND porten.
-        Se figur~\ref{fig:NAND_transistorlevel} for oppbyggingen av en NAND port med bruk av PMOS-, og NMOS-transistorer.
+        Se Figur~\ref{fig:tt_nand} for sannhetstabellen til NAND porten.
+        Se Figur~\ref{fig:NAND_transistorlevel} for oppbyggingen av en NAND port med bruk av PMOS-, og NMOS-transistorer.
         \item[-] Kombinatorisk CMOS-logikk: En CMOS krets består av en eller flere logiske porter bygget på PMOS-, og NMOS-transistorer.
     \end{itemize}
 
